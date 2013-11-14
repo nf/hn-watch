@@ -1,0 +1,12 @@
+application: hn-watch
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /poll
+  script: _go_app
+  login: admin
+- url: /_ah/queue/go/delay
+  script: _go_app
+  login: admin

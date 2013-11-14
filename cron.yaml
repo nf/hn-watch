@@ -1,0 +1,5 @@
+cron:
+- description: HN frontpage scrape
+  url: /poll
+  schedule: every 5 minutes
+
