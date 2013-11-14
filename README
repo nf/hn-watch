@@ -1,0 +1,2 @@
+This simple App Engine app notifies me when articles that mention
+"go", "golang", or "google" hit the Hacker News front page. Nothing more.
